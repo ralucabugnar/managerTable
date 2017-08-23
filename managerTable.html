@@ -1,0 +1,79 @@
+<html>
+<head>
+	 <title>Manager Table</title>
+	 <link rel="stylesheet"type="text/css" href="managerTable.css" >
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>	
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="managerTable.js"></script> 
+</head>
+<body>
+	<button type="button" id='btnLoad'>Load</button>
+	 <table class="table">
+	   <thead class="thead-inverse">
+		<tr>
+		  <th>#</th>
+		  <th>Name</th>
+		  <th>Position</th>
+		  <th>Email</th>
+		  <th>Date Time</th>
+		  <th>Free Days</th>
+		  <th>Approved</th>
+		</tr>
+	  </thead>
+	   <tbody>   
+      <tr class="danger">
+		<td>1</td>
+        <td>Danger</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+		<td>10.10.2017</td>
+		<td>4</td>
+		<td>yes</td>
+      </tr>
+      <tr class="info">
+		<td>2</td>
+        <td>Info</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+		<td>10.10.2017</td>
+		<td>4</td>
+		<td>yes</td>
+      </tr>
+      <tr class="warning">
+		<td>3</td>
+        <td>Warning</td>
+        <td>Refs</td>
+        <td>bo@example.com</td>
+		<td>10.10.2017</td>
+		<td>4</td>
+		<td>yes</td>
+      </tr>
+     
+		<td>4</td>
+        <td>Active</td>
+        <td>Activeson</td>
+        <td>act@example.com</td>
+		<td>10.10.2017</td>
+		<td>4</td>
+		<td>yes</td>
+  
+    </tbody>
+</table>
+<div id="showData"></div>
+<ul class="pagination" id="pag" index="0">
+			<li id="before" index="0" class="active"><</li>
+			<li id='1' index="0" class="active">1</li>
+			<li id='2' index="1">2</li>
+			<li id='3' index="2">3</li>
+			<li id='rest' index="3">...</li>
+			<li id="rest1" index="4"> </li>
+			<li id='100' index="99">100</li>
+			<li id="after" index="1">></li>			
+</ul>
+</body>
+</html>

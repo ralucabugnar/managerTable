@@ -1,0 +1,44 @@
+.pagination{
+	display: none;
+}
+#before{
+	content: "";
+	width: 0; 
+	height: 0; 
+
+	float: left;
+	padding-left:40%;
+}
+#rest1{
+	display: block;
+}
+.pagination li {
+	float: left;
+	padding: 2px;
+	list-style-type: none;
+	margin-right: 20px;
+	right: 30px;	
+}
+.pagination li:hover{
+	color: red;
+	cursor: pointer;
+}
+#after {
+	content: " ";
+    width: 8px;
+    height: 0px;
+    float: right;
+    padding-right: 34%;	
+}
+  table, th, td {
+        margin:10px 0;
+        border:solid 1px #333;
+        padding:2px 4px;
+        font:15px Verdana;
+    }
+  th {
+    font-weight:bold;
+   }
+.active{
+	color: red;
+}
